@@ -2,3 +2,10 @@
 <p>
   Start editing to see some magic happen :)
 </p>
+<input type="text"
+#box
+placeholder="enter"
+name="name"
+/>
+<button (click)="getValue(box.value)">Click Me</button>
+<p>Entered value is : {{displayVal}}</p>

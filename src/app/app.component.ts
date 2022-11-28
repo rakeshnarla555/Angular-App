@@ -7,4 +7,8 @@ import { Component, VERSION } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Angular ' + VERSION.major;
+  displayVal=''
+  getValue(val:string){
+   this.displayVal=val;
+  }
 }
